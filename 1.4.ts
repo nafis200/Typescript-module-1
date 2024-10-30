@@ -1,4 +1,6 @@
 
+{
+    
 let firstname : string = 'nafis'
 
 let isAdmin : boolean = true 
@@ -13,3 +15,4 @@ let roll : number[] = [1,2,3,4,5,6]
 
 // tupple
 let Coordinates : [number,number] = [1,5]
+}

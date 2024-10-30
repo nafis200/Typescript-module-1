@@ -7,3 +7,7 @@
 -- nvm install [version.package]
 -- nvm use 22.11.0 package
 -- nvm list
+
+-- tsc file-name.ts
+
+-- node file-name.js
