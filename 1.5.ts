@@ -5,7 +5,7 @@ const user : {
     lastName: string
 } = {
     firstName:'nafis',
-    lastName:'ahamed'
+    lastName:'ahameds'
 }
 
 console.log(user);
