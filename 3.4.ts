@@ -47,8 +47,12 @@
      const cat = new Cat('cat bhai','cat',
     'mewa mewa')
 
+    const isDog = (animal : Animal): animal is Dog =>{
+           return animal instanceof Dog
+    }
+
     const getAnimal = (animal: Animal) =>{
-          if(animal instanceof Dog){
+          if(isDog(animal)){
             animal.makeBark()
           }
           else if(animal instanceof Cat){
